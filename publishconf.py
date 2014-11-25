@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'http://edanweis.github.io/JRP-2.0'
+SITEURL = 'http://jardan-dev.github.io/JRP-2.0'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
