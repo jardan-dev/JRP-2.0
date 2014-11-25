@@ -1,0 +1,19 @@
+# To pull changes from the Github source of gh-pages (gh-pages-src branch):
+git pull origin gh-pages-src
+
+# then, push the source to update github repo:
+git push origin gh-pages-src
+
+# To publish the site after adding new articles, changes, etc:
+pelican content -s pelicanconf.py
+
+# to add to github using the ghp-import script:
+python ghp-import output
+
+# then force push the gh-pages branch, because of non-fast-forward:
+git checkout gh-pages
+git push origin gh-pages
+
+
+# To add/change a theme, download just that folder from the pelican-themes github repository, then manually copy it to the pelican root directory and change this in pelicanconf.py:
+THEME = 'your_new_theme'
