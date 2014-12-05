@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Edan Weis'
 SITENAME = u'Jardan Room Planner 2.0'
-SITEURL = ''
+SITEURL = 'jardan-dev.github.io/JRP-2.0'
 
 PATH = 'content'
 
@@ -43,8 +43,6 @@ HIDE_SIDEBAR = True
 
 CC_LICENSE = 'CC-BY-SA'
 CC_ATTR_MARKUP = True
-
-PLUGINS = ['encrypt_content']
 
 STATIC_PATHS = ['extra/robots.txt']
 EXTRA_PATH_METADATA = {
